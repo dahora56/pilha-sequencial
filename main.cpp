@@ -46,7 +46,7 @@ int main()
                 cout<<"Pilha vazia..."<<endl;
             else
             {
-                for(int i = 0; i < 10; i++)
+                for(int i = 0; i <= p.topo; i++)
                 {
                     cout<<p.v[i]<<endl;
                 }
