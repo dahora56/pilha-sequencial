@@ -1,3 +1,11 @@
+/*
+João Victor Oliveira da Hora
+ADS Manhã - 3º Ciclo
+FATEC Rubens Lara
+01/03/2019
+*/
+
+
 #include <iostream>
 #include "pilhaSequencial.h"
 #include <stack>
@@ -50,9 +58,10 @@ int main()
                 cout<<"\nPilha vazia..."<<endl;
             else
             {
+                cout<<endl;
                 for(int i = 0; i <= p.topo; i++)
                 {
-                    cout<<p.v[i]<<endl;
+                    cout<<i + 1<<": "<<p.v[i]<<endl;
                 }
             }
             break;
